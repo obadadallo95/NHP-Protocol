@@ -54,6 +54,8 @@
 | 🟠 Pessimistic | 10% | 150,000,000 | 2,662,500,000 | **1,331,250** |
 | 🔴 Catastrophic | 3% | 45,000,000 | 798,750,000 | **399,375** |
 
+![Fleet Computing Power](../../assets/company/apple/apple_01_fleet_power.png)
+
 ## 3. Security & TEE Analysis / تحليل الأمان و TEE
 
 | Property | Detail |
@@ -161,6 +163,8 @@ Annual cloud cost (100%): $24.9M
 | 🟠 Pessimistic | 15% | **$3.7M** | 15% |
 | 🔴 Catastrophic | 5% | **$1.2M** | 5% |
 
+![Cloud Savings Comparison](../../assets/company/apple/apple_02_cloud_savings.png)
+
 ## 6. User Income in Primary Markets / دخل المستخدم في الأسواق الرئيسية
 
 | Region | Electricity | Token Price | Monthly Net | Annual Net | % of Avg Income |
@@ -186,6 +190,8 @@ Annual cloud cost (100%): $24.9M
 | South Korea | $0.1/kWh | 🟠 $0.08/hr | $16.73 | $200.72 | 0.60% |
 | South Korea | $0.1/kWh | 🔴 $0.02/hr | $4.13 | $49.52 | 0.15% |
 
+![User Income by Market](../../assets/company/apple/apple_03_user_income.png)
+
 ## 7. Environmental Impact / الأثر البيئي
 
 | Variant | DCs Replaced | CO₂ Saved (net tons) | Cars Removed | Phone CO₂ Added |
@@ -194,6 +200,8 @@ Annual cloud cost (100%): $24.9M
 | 🔵 Moderate | 5.0 | **-341,375** | -74,211 | 1,341,375 |
 | 🟠 Pessimistic | 2.0 | **-136,550** | -29,684 | 536,550 |
 | 🔴 Catastrophic | 0.5 | **-60,965** | -13,253 | 160,965 |
+
+![Environmental Impact](../../assets/company/apple/apple_04_environmental.png)
 
 ## 8. Network Growth Projection / توقعات نمو الشبكة
 
@@ -205,6 +213,8 @@ Starting point: 11,500,000 devices (5% of annual sales)
 | 🔵 Moderate | 150% | 28,750,000 | 71,875,000 | 179,687,500 | 449,218,750 | 1,123,046,875 |
 | 🟠 Pessimistic | 50% | 17,250,000 | 25,875,000 | 38,812,500 | 58,218,750 | 87,328,125 |
 | 🔴 Catastrophic | 10% | 12,650,000 | 13,915,000 | 15,306,500 | 16,837,150 | 18,520,865 |
+
+![Network Growth Projection](../../assets/company/apple/apple_05_network_growth.png)
 
 ## 9. Partnership Assessment / تقييم الشراكة
 
@@ -235,6 +245,8 @@ Starting point: 11,500,000 devices (5% of annual sales)
 | 🔵 Moderate | 40% | $18.3M | ∞ | $-78.6M | -157% |
 | 🟠 Pessimistic | 15% | $6.9M | ∞ | $-135.7M | -271% |
 | 🔴 Catastrophic | 5% | $2.3M | ∞ | $-158.6M | -317% |
+
+![Breakeven & ROI](../../assets/company/apple/apple_06_breakeven_roi.png)
 
 ## 11. Integration Roadmap / خريطة التكامل
 

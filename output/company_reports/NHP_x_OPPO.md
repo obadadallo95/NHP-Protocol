@@ -52,6 +52,8 @@
 | 🟠 Pessimistic | 10% | 30,000,000 | 393,750,000 | **196,875** |
 | 🔴 Catastrophic | 3% | 9,000,000 | 118,125,000 | **59,062** |
 
+![Fleet Computing Power](../../assets/company/oppo/oppo_01_fleet_power.png)
+
 ## 3. Security & TEE Analysis / تحليل الأمان و TEE
 
 | Property | Detail |
@@ -152,6 +154,8 @@ Annual cloud cost (100%): $3.4M
 | 🟠 Pessimistic | 15% | **$509K** | 15% |
 | 🔴 Catastrophic | 5% | **$170K** | 5% |
 
+![Cloud Savings Comparison](../../assets/company/oppo/oppo_02_cloud_savings.png)
+
 ## 6. User Income in Primary Markets / دخل المستخدم في الأسواق الرئيسية
 
 | Region | Electricity | Token Price | Monthly Net | Annual Net | % of Avg Income |
@@ -173,6 +177,8 @@ Annual cloud cost (100%): $3.4M
 | Middle East | $0.05/kWh | 🟠 $0.08/hr | $16.76 | $201.16 | 0.84% |
 | Middle East | $0.05/kWh | 🔴 $0.02/hr | $4.16 | $49.96 | 0.21% |
 
+![User Income by Market](../../assets/company/oppo/oppo_03_user_income.png)
+
 ## 7. Environmental Impact / الأثر البيئي
 
 | Variant | DCs Replaced | CO₂ Saved (net tons) | Cars Removed | Phone CO₂ Added |
@@ -181,6 +187,8 @@ Annual cloud cost (100%): $3.4M
 | 🔵 Moderate | 5.0 | **731,725** | 159,070 | 268,275 |
 | 🟠 Pessimistic | 2.0 | **292,690** | 63,628 | 107,310 |
 | 🔴 Catastrophic | 0.5 | **67,807** | 14,740 | 32,193 |
+
+![Environmental Impact](../../assets/company/oppo/oppo_04_environmental.png)
 
 ## 8. Network Growth Projection / توقعات نمو الشبكة
 
@@ -192,6 +200,8 @@ Starting point: 5,000,000 devices (5% of annual sales)
 | 🔵 Moderate | 150% | 12,500,000 | 31,250,000 | 78,125,000 | 195,312,500 | 300,000,000 |
 | 🟠 Pessimistic | 50% | 7,500,000 | 11,250,000 | 16,875,000 | 25,312,500 | 37,968,750 |
 | 🔴 Catastrophic | 10% | 5,500,000 | 6,050,000 | 6,655,000 | 7,320,500 | 8,052,550 |
+
+![Network Growth Projection](../../assets/company/oppo/oppo_05_network_growth.png)
 
 ## 9. Partnership Assessment / تقييم الشراكة
 
@@ -222,6 +232,8 @@ Starting point: 5,000,000 devices (5% of annual sales)
 | 🔵 Moderate | 40% | $2.5M | ∞ | $-119.5M | -996% |
 | 🟠 Pessimistic | 15% | $934K | ∞ | $-127.3M | -1061% |
 | 🔴 Catastrophic | 5% | $311K | ∞ | $-130.4M | -1087% |
+
+![Breakeven & ROI](../../assets/company/oppo/oppo_06_breakeven_roi.png)
 
 ## 11. Integration Roadmap / خريطة التكامل
 

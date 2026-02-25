@@ -51,6 +51,8 @@
 | 🟠 Pessimistic | 10% | 25,000,000 | 321,875,000 | **160,938** |
 | 🔴 Catastrophic | 3% | 7,500,000 | 96,562,500 | **48,281** |
 
+![Fleet Computing Power](../../assets/company/huawei/huawei_01_fleet_power.png)
+
 ## 3. Security & TEE Analysis / تحليل الأمان و TEE
 
 | Property | Detail |
@@ -151,6 +153,8 @@ Annual cloud cost (100%): $4.5M
 | 🟠 Pessimistic | 15% | **$678K** | 15% |
 | 🔴 Catastrophic | 5% | **$226K** | 5% |
 
+![Cloud Savings Comparison](../../assets/company/huawei/huawei_02_cloud_savings.png)
+
 ## 6. User Income in Primary Markets / دخل المستخدم في الأسواق الرئيسية
 
 | Region | Electricity | Token Price | Monthly Net | Annual Net | % of Avg Income |
@@ -172,6 +176,8 @@ Annual cloud cost (100%): $4.5M
 | South Korea | $0.1/kWh | 🟠 $0.08/hr | $16.73 | $200.72 | 0.60% |
 | South Korea | $0.1/kWh | 🔴 $0.02/hr | $4.13 | $49.52 | 0.15% |
 
+![User Income by Market](../../assets/company/huawei/huawei_03_user_income.png)
+
 ## 7. Environmental Impact / الأثر البيئي
 
 | Variant | DCs Replaced | CO₂ Saved (net tons) | Cars Removed | Phone CO₂ Added |
@@ -180,6 +186,8 @@ Annual cloud cost (100%): $4.5M
 | 🔵 Moderate | 5.0 | **776,438** | 168,790 | 223,562 |
 | 🟠 Pessimistic | 2.0 | **310,575** | 67,516 | 89,425 |
 | 🔴 Catastrophic | 0.5 | **73,172** | 15,907 | 26,828 |
+
+![Environmental Impact](../../assets/company/huawei/huawei_04_environmental.png)
 
 ## 8. Network Growth Projection / توقعات نمو الشبكة
 
@@ -191,6 +199,8 @@ Starting point: 3,000,000 devices (5% of annual sales)
 | 🔵 Moderate | 150% | 7,500,000 | 18,750,000 | 46,875,000 | 117,187,500 | 250,000,000 |
 | 🟠 Pessimistic | 50% | 4,500,000 | 6,750,000 | 10,125,000 | 15,187,500 | 22,781,250 |
 | 🔴 Catastrophic | 10% | 3,300,000 | 3,630,000 | 3,993,000 | 4,392,300 | 4,831,530 |
+
+![Network Growth Projection](../../assets/company/huawei/huawei_05_network_growth.png)
 
 ## 9. Partnership Assessment / تقييم الشراكة
 
@@ -221,6 +231,8 @@ Starting point: 3,000,000 devices (5% of annual sales)
 | 🔵 Moderate | 40% | $3.3M | ∞ | $-123.4M | -617% |
 | 🟠 Pessimistic | 15% | $1.2M | ∞ | $-133.8M | -669% |
 | 🔴 Catastrophic | 5% | $415K | ∞ | $-137.9M | -690% |
+
+![Breakeven & ROI](../../assets/company/huawei/huawei_06_breakeven_roi.png)
 
 ## 11. Integration Roadmap / خريطة التكامل
 

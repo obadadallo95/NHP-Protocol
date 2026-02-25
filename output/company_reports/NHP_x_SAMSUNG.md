@@ -55,6 +55,8 @@
 | 🟠 Pessimistic | 10% | 30,000,000 | 433,500,000 | **216,750** |
 | 🔴 Catastrophic | 3% | 9,000,000 | 130,050,000 | **65,025** |
 
+![Fleet Computing Power](../../assets/company/samsung/samsung_01_fleet_power.png)
+
 ## 3. Security & TEE Analysis / تحليل الأمان و TEE
 
 | Property | Detail |
@@ -162,6 +164,8 @@ Annual cloud cost (100%): $13.6M
 | 🟠 Pessimistic | 15% | **$2.0M** | 15% |
 | 🔴 Catastrophic | 5% | **$678K** | 5% |
 
+![Cloud Savings Comparison](../../assets/company/samsung/samsung_02_cloud_savings.png)
+
 ## 6. User Income in Primary Markets / دخل المستخدم في الأسواق الرئيسية
 
 | Region | Electricity | Token Price | Monthly Net | Annual Net | % of Avg Income |
@@ -191,6 +195,8 @@ Annual cloud cost (100%): $13.6M
 | South Korea | $0.1/kWh | 🟠 $0.08/hr | $16.73 | $200.72 | 0.60% |
 | South Korea | $0.1/kWh | 🔴 $0.02/hr | $4.13 | $49.52 | 0.15% |
 
+![User Income by Market](../../assets/company/samsung/samsung_03_user_income.png)
+
 ## 7. Environmental Impact / الأثر البيئي
 
 | Variant | DCs Replaced | CO₂ Saved (net tons) | Cars Removed | Phone CO₂ Added |
@@ -199,6 +205,8 @@ Annual cloud cost (100%): $13.6M
 | 🔵 Moderate | 5.0 | **731,725** | 159,070 | 268,275 |
 | 🟠 Pessimistic | 2.0 | **292,690** | 63,628 | 107,310 |
 | 🔴 Catastrophic | 0.5 | **67,807** | 14,740 | 32,193 |
+
+![Environmental Impact](../../assets/company/samsung/samsung_04_environmental.png)
 
 ## 8. Network Growth Projection / توقعات نمو الشبكة
 
@@ -210,6 +218,8 @@ Starting point: 11,250,000 devices (5% of annual sales)
 | 🔵 Moderate | 150% | 28,125,000 | 70,312,500 | 175,781,250 | 300,000,000 | 300,000,000 |
 | 🟠 Pessimistic | 50% | 16,875,000 | 25,312,500 | 37,968,750 | 56,953,125 | 85,429,688 |
 | 🔴 Catastrophic | 10% | 12,375,000 | 13,612,500 | 14,973,750 | 16,471,125 | 18,118,238 |
+
+![Network Growth Projection](../../assets/company/samsung/samsung_05_network_growth.png)
 
 ## 9. Partnership Assessment / تقييم الشراكة
 
@@ -240,6 +250,8 @@ Starting point: 11,250,000 devices (5% of annual sales)
 | 🔵 Moderate | 40% | $10.0M | ∞ | $-100.2M | -334% |
 | 🟠 Pessimistic | 15% | $3.7M | ∞ | $-131.3M | -438% |
 | 🔴 Catastrophic | 5% | $1.2M | ∞ | $-143.8M | -479% |
+
+![Breakeven & ROI](../../assets/company/samsung/samsung_06_breakeven_roi.png)
 
 ## 11. Integration Roadmap / خريطة التكامل
 

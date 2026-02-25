@@ -51,6 +51,8 @@
 | 🟠 Pessimistic | 10% | 25,000,000 | 365,625,000 | **182,812** |
 | 🔴 Catastrophic | 3% | 7,500,000 | 109,687,500 | **54,844** |
 
+![Fleet Computing Power](../../assets/company/vivo/vivo_01_fleet_power.png)
+
 ## 3. Security & TEE Analysis / تحليل الأمان و TEE
 
 | Property | Detail |
@@ -151,6 +153,8 @@ Annual cloud cost (100%): $2.7M
 | 🟠 Pessimistic | 15% | **$407K** | 15% |
 | 🔴 Catastrophic | 5% | **$136K** | 5% |
 
+![Cloud Savings Comparison](../../assets/company/vivo/vivo_02_cloud_savings.png)
+
 ## 6. User Income in Primary Markets / دخل المستخدم في الأسواق الرئيسية
 
 | Region | Electricity | Token Price | Monthly Net | Annual Net | % of Avg Income |
@@ -172,6 +176,8 @@ Annual cloud cost (100%): $2.7M
 | Middle East | $0.05/kWh | 🟠 $0.08/hr | $16.76 | $201.16 | 0.84% |
 | Middle East | $0.05/kWh | 🔴 $0.02/hr | $4.16 | $49.96 | 0.21% |
 
+![User Income by Market](../../assets/company/vivo/vivo_03_user_income.png)
+
 ## 7. Environmental Impact / الأثر البيئي
 
 | Variant | DCs Replaced | CO₂ Saved (net tons) | Cars Removed | Phone CO₂ Added |
@@ -180,6 +186,8 @@ Annual cloud cost (100%): $2.7M
 | 🔵 Moderate | 5.0 | **776,438** | 168,790 | 223,562 |
 | 🟠 Pessimistic | 2.0 | **310,575** | 67,516 | 89,425 |
 | 🔴 Catastrophic | 0.5 | **73,172** | 15,907 | 26,828 |
+
+![Environmental Impact](../../assets/company/vivo/vivo_04_environmental.png)
 
 ## 8. Network Growth Projection / توقعات نمو الشبكة
 
@@ -191,6 +199,8 @@ Starting point: 4,500,000 devices (5% of annual sales)
 | 🔵 Moderate | 150% | 11,250,000 | 28,125,000 | 70,312,500 | 175,781,250 | 250,000,000 |
 | 🟠 Pessimistic | 50% | 6,750,000 | 10,125,000 | 15,187,500 | 22,781,250 | 34,171,875 |
 | 🔴 Catastrophic | 10% | 4,950,000 | 5,445,000 | 5,989,500 | 6,588,450 | 7,247,295 |
+
+![Network Growth Projection](../../assets/company/vivo/vivo_05_network_growth.png)
 
 ## 9. Partnership Assessment / تقييم الشراكة
 
@@ -221,6 +231,8 @@ Starting point: 4,500,000 devices (5% of annual sales)
 | 🔵 Moderate | 40% | $2.0M | ∞ | $-122.0M | -1017% |
 | 🟠 Pessimistic | 15% | $748K | ∞ | $-128.3M | -1069% |
 | 🔴 Catastrophic | 5% | $249K | ∞ | $-130.8M | -1090% |
+
+![Breakeven & ROI](../../assets/company/vivo/vivo_06_breakeven_roi.png)
 
 ## 11. Integration Roadmap / خريطة التكامل
 

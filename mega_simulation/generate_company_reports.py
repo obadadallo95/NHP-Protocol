@@ -15,6 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from typing import Dict, Any, List
 from datetime import datetime
 from mega_simulation.company_profiles import COMPANY_PROFILES, CompanyProfile
+from mega_simulation.company_charts import generate_company_charts
 from mega_simulation.data import (
     MANUFACTURERS, CLOUD_PROVIDERS, REGIONS,
     VARIANT_NAMES, VARIANT_EMOJIS, UPTIME_VARIANTS,
@@ -38,17 +39,19 @@ def _num(val: float) -> str:
     return f"{val:,.0f}"
 
 
-def generate_company_report(key: str, profile: CompanyProfile) -> str:
+def generate_company_report(key: str, profile: CompanyProfile, chart_dir: str = "") -> str:
     """Generate a comprehensive bilingual report for one company.
 
     Args:
         key: Company key (e.g., 'samsung').
         profile: Full company profile data.
+        chart_dir: Relative path to chart directory for image embedding.
 
     Returns:
         Complete markdown report string.
     """
     now = datetime.now().strftime("%d.%m.%Y")
+    charts_rel = f"../../assets/company/{key}" if not chart_dir else chart_dir
     lines: List[str] = []
 
     # ── HEADER ───────────────────────────────────────────────
@@ -126,6 +129,10 @@ def generate_company_report(key: str, profile: CompanyProfile) -> str:
         lines.append(f"| {VARIANT_EMOJIS[i]} {vname} | {uptime*100:.0f}% | {_num(active)} | {_num(fleet_tops)} | **{_num(h100)}** |")
     lines.append("")
 
+    # Chart: Fleet Power
+    lines.append(f"![Fleet Computing Power]({charts_rel}/{key}_01_fleet_power.png)")
+    lines.append("")
+
     # ── 3. SECURITY & TEE ────────────────────────────────────
     sec = profile.security
     lines.append("## 3. Security & TEE Analysis / تحليل الأمان و TEE")
@@ -190,6 +197,10 @@ def generate_company_report(key: str, profile: CompanyProfile) -> str:
             lines.append(f"| {VARIANT_EMOJIS[i]} {vname} | {pct:.0f}% | **{_fmt(savings)}** | {pct:.0f}% |")
         lines.append("")
 
+    # Chart: Cloud Savings
+    lines.append(f"![Cloud Savings Comparison]({charts_rel}/{key}_02_cloud_savings.png)")
+    lines.append("")
+
     # ── 6. USER INCOME IN PRIMARY MARKETS ────────────────────
     lines.append("## 6. User Income in Primary Markets / دخل المستخدم في الأسواق الرئيسية")
     lines.append("")
@@ -219,6 +230,10 @@ def generate_company_report(key: str, profile: CompanyProfile) -> str:
                         f"${monthly_net:.2f} | ${annual_net:.2f} | {pct_avg:.2f}% |")
     lines.append("")
 
+    # Chart: User Income
+    lines.append(f"![User Income by Market]({charts_rel}/{key}_03_user_income.png)")
+    lines.append("")
+
     # ── 7. ENVIRONMENTAL IMPACT ──────────────────────────────
     lines.append("## 7. Environmental Impact / الأثر البيئي")
     lines.append("")
@@ -236,6 +251,10 @@ def generate_company_report(key: str, profile: CompanyProfile) -> str:
         lines.append(f"| {VARIANT_EMOJIS[i]} {vname} | {dc} | **{_num(net_saved)}** | {_num(cars)} | {_num(co2_added)} |")
     lines.append("")
 
+    # Chart: Environmental
+    lines.append(f"![Environmental Impact]({charts_rel}/{key}_04_environmental.png)")
+    lines.append("")
+
     # ── 8. NETWORK GROWTH PROJECTION ─────────────────────────
     lines.append("## 8. Network Growth Projection / توقعات نمو الشبكة")
     lines.append("")
@@ -251,6 +270,10 @@ def generate_company_report(key: str, profile: CompanyProfile) -> str:
             current = min(current * (1 + growth), profile.total_active_devices_millions * 1_000_000)
             row += f" {_num(current)} |"
         lines.append(row)
+    lines.append("")
+
+    # Chart: Network Growth
+    lines.append(f"![Network Growth Projection]({charts_rel}/{key}_05_network_growth.png)")
     lines.append("")
 
     # ── 9. PARTNERSHIP ASSESSMENT ─────────────────────────────
@@ -299,6 +322,10 @@ def generate_company_report(key: str, profile: CompanyProfile) -> str:
         five_yr = (monthly_savings * 60) - dev_cost - (ops_monthly * 60)
         roi = (five_yr / dev_cost * 100) if dev_cost > 0 else 0
         lines.append(f"| {VARIANT_EMOJIS[i]} {vname} | {cov*100:.0f}% | {_fmt(annual_savings)} | {be_str} | {_fmt(five_yr)} | {roi:.0f}% |")
+    lines.append("")
+
+    # Chart: Breakeven & ROI
+    lines.append(f"![Breakeven & ROI]({charts_rel}/{key}_06_breakeven_roi.png)")
     lines.append("")
 
     # ── 11. INTEGRATION ROADMAP ──────────────────────────────
@@ -427,6 +454,13 @@ def main() -> None:
 
     for key, profile in COMPANY_PROFILES.items():
         print(f"▶ Generating report for {profile.name}...")
+
+        # Generate charts
+        chart_out = f"assets/company/{key}"
+        chart_paths = generate_company_charts(key, profile, chart_out)
+        print(f"  📊 {len(chart_paths)} charts generated")
+
+        # Generate report with chart directory reference
         report = generate_company_report(key, profile)
 
         # Count approximate scenarios in this report
@@ -439,7 +473,7 @@ def main() -> None:
         path = os.path.join(out_dir, f"NHP_x_{key.upper()}.md")
         with open(path, "w", encoding="utf-8") as f:
             f.write(report)
-        print(f"  ✅ {path} ({company_scenarios} scenarios)")
+        print(f"  ✅ {path} ({company_scenarios} scenarios, {len(chart_paths)} charts)")
 
     elapsed = time.time() - start
 

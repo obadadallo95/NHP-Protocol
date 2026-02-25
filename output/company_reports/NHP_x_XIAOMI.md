@@ -53,6 +53,8 @@
 | 🟠 Pessimistic | 10% | 60,000,000 | 915,000,000 | **457,500** |
 | 🔴 Catastrophic | 3% | 18,000,000 | 274,500,000 | **137,250** |
 
+![Fleet Computing Power](../../assets/company/xiaomi/xiaomi_01_fleet_power.png)
+
 ## 3. Security & TEE Analysis / تحليل الأمان و TEE
 
 | Property | Detail |
@@ -153,6 +155,8 @@ Annual cloud cost (100%): $6.8M
 | 🟠 Pessimistic | 15% | **$1.0M** | 15% |
 | 🔴 Catastrophic | 5% | **$339K** | 5% |
 
+![Cloud Savings Comparison](../../assets/company/xiaomi/xiaomi_02_cloud_savings.png)
+
 ## 6. User Income in Primary Markets / دخل المستخدم في الأسواق الرئيسية
 
 | Region | Electricity | Token Price | Monthly Net | Annual Net | % of Avg Income |
@@ -178,6 +182,8 @@ Annual cloud cost (100%): $6.8M
 | Latin America | $0.12/kWh | 🟠 $0.08/hr | $16.71 | $200.54 | 1.67% |
 | Latin America | $0.12/kWh | 🔴 $0.02/hr | $4.11 | $49.34 | 0.41% |
 
+![User Income by Market](../../assets/company/xiaomi/xiaomi_03_user_income.png)
+
 ## 7. Environmental Impact / الأثر البيئي
 
 | Variant | DCs Replaced | CO₂ Saved (net tons) | Cars Removed | Phone CO₂ Added |
@@ -186,6 +192,8 @@ Annual cloud cost (100%): $6.8M
 | 🔵 Moderate | 5.0 | **463,450** | 100,750 | 536,550 |
 | 🟠 Pessimistic | 2.0 | **185,380** | 40,300 | 214,620 |
 | 🔴 Catastrophic | 0.5 | **35,614** | 7,742 | 64,386 |
+
+![Environmental Impact](../../assets/company/xiaomi/xiaomi_04_environmental.png)
 
 ## 8. Network Growth Projection / توقعات نمو الشبكة
 
@@ -197,6 +205,8 @@ Starting point: 7,500,000 devices (5% of annual sales)
 | 🔵 Moderate | 150% | 18,750,000 | 46,875,000 | 117,187,500 | 292,968,750 | 600,000,000 |
 | 🟠 Pessimistic | 50% | 11,250,000 | 16,875,000 | 25,312,500 | 37,968,750 | 56,953,125 |
 | 🔴 Catastrophic | 10% | 8,250,000 | 9,075,000 | 9,982,500 | 10,980,750 | 12,078,825 |
+
+![Network Growth Projection](../../assets/company/xiaomi/xiaomi_05_network_growth.png)
 
 ## 9. Partnership Assessment / تقييم الشراكة
 
@@ -227,6 +237,8 @@ Starting point: 7,500,000 devices (5% of annual sales)
 | 🔵 Moderate | 40% | $5.0M | ∞ | $-110.1M | -734% |
 | 🟠 Pessimistic | 15% | $1.9M | ∞ | $-125.7M | -838% |
 | 🔴 Catastrophic | 5% | $623K | ∞ | $-131.9M | -879% |
+
+![Breakeven & ROI](../../assets/company/xiaomi/xiaomi_06_breakeven_roi.png)
 
 ## 11. Integration Roadmap / خريطة التكامل
 

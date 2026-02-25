@@ -52,6 +52,8 @@
 | 🟠 Pessimistic | 10% | 4,000,000 | 78,500,000 | **39,250** |
 | 🔴 Catastrophic | 3% | 1,200,000 | 23,550,000 | **11,775** |
 
+![Fleet Computing Power](../../assets/company/google/google_01_fleet_power.png)
+
 ## 3. Security & TEE Analysis / تحليل الأمان و TEE
 
 | Property | Detail |
@@ -152,6 +154,8 @@ Annual cloud cost (100%): $2.3M
 | 🟠 Pessimistic | 15% | **$339K** | 15% |
 | 🔴 Catastrophic | 5% | **$113K** | 5% |
 
+![Cloud Savings Comparison](../../assets/company/google/google_02_cloud_savings.png)
+
 ## 6. User Income in Primary Markets / دخل المستخدم في الأسواق الرئيسية
 
 | Region | Electricity | Token Price | Monthly Net | Annual Net | % of Avg Income |
@@ -169,6 +173,8 @@ Annual cloud cost (100%): $2.3M
 | Japan | $0.22/kWh | 🟠 $0.08/hr | $16.64 | $199.66 | 0.52% |
 | Japan | $0.22/kWh | 🔴 $0.02/hr | $4.04 | $48.46 | 0.13% |
 
+![User Income by Market](../../assets/company/google/google_03_user_income.png)
+
 ## 7. Environmental Impact / الأثر البيئي
 
 | Variant | DCs Replaced | CO₂ Saved (net tons) | Cars Removed | Phone CO₂ Added |
@@ -177,6 +183,8 @@ Annual cloud cost (100%): $2.3M
 | 🔵 Moderate | 5.0 | **964,230** | 209,615 | 35,770 |
 | 🟠 Pessimistic | 2.0 | **385,692** | 83,846 | 14,308 |
 | 🔴 Catastrophic | 0.5 | **95,708** | 20,806 | 4,292 |
+
+![Environmental Impact](../../assets/company/google/google_04_environmental.png)
 
 ## 8. Network Growth Projection / توقعات نمو الشبكة
 
@@ -188,6 +196,8 @@ Starting point: 500,000 devices (5% of annual sales)
 | 🔵 Moderate | 150% | 1,250,000 | 3,125,000 | 7,812,500 | 19,531,250 | 40,000,000 |
 | 🟠 Pessimistic | 50% | 750,000 | 1,125,000 | 1,687,500 | 2,531,250 | 3,796,875 |
 | 🔴 Catastrophic | 10% | 550,000 | 605,000 | 665,500 | 732,050 | 805,255 |
+
+![Network Growth Projection](../../assets/company/google/google_05_network_growth.png)
 
 ## 9. Partnership Assessment / تقييم الشراكة
 
@@ -218,6 +228,8 @@ Starting point: 500,000 devices (5% of annual sales)
 | 🔵 Moderate | 40% | $1.7M | ∞ | $-131.7M | -658% |
 | 🟠 Pessimistic | 15% | $623K | ∞ | $-136.9M | -684% |
 | 🔴 Catastrophic | 5% | $208K | ∞ | $-139.0M | -695% |
+
+![Breakeven & ROI](../../assets/company/google/google_06_breakeven_roi.png)
 
 ## 11. Integration Roadmap / خريطة التكامل
 
