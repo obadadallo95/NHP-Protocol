@@ -4,6 +4,14 @@ This folder contains the Android Proof of Concept for the NHP Protocol.
 
 ## Status: ✅ Live on Samsung Galaxy S24 Ultra
 
+### Screenshots — Samsung Galaxy S24 Ultra
+
+| Dashboard | Statistics |
+|:---:|:---:|
+| ![Dashboard](./assets/Dashborard.jpg) | ![Statistics](./assets/Statistics.jpg) |
+| **Earnings** | **Settings** |
+| ![Earnings](./assets/Earnings.jpg) | ![Settings](./assets/Settings.jpg) |
+
 ## What This Proves
 
 1. **Condition detection works** — the app reads real device state (charging, WiFi, screen) using native Android APIs

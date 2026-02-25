@@ -49,9 +49,13 @@
 | Arabic + English RTL | ✅ Full bilingual support |
 | Premium dark UI | ✅ Glassmorphism, 2026 aesthetic |
 
-### Screenshot — Samsung Galaxy S24 Ultra
+### Screenshots — Samsung Galaxy S24 Ultra
 
-![NHP Dashboard](./assets/android-poc/dashboard_screenshot.jpg)
+| Dashboard | Statistics |
+|:---:|:---:|
+| ![Dashboard](./assets/android-poc/Dashborard.jpg) | ![Statistics](./assets/android-poc/Statistics.jpg) |
+| **Earnings** | **Settings** |
+| ![Earnings](./assets/android-poc/Earnings.jpg) | ![Settings](./assets/android-poc/Settings.jpg) |
 
 *The app detected: Battery 100% charging ✅ • WiFi connected ✅ • NPU at 44% • Temp 37.9°C*
 
