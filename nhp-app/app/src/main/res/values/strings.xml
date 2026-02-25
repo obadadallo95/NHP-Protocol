@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">NHP</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_earnings">Earnings</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Status -->
+    <string name="status_active">ACTIVE</string>
+    <string name="status_standby">STANDBY</string>
+    <string name="status_offline">OFFLINE</string>
+    <string name="nhp_running">NHP is running</string>
+    <string name="connect_wifi">Connect to WiFi</string>
+    <string name="plug_charger">Plug in charger</string>
+    <string name="turn_screen_off">Turn screen off to start</string>
+    <string name="all_conditions_met">All conditions met — processing tasks</string>
+    <string name="checking_conditions">Checking conditions…</string>
+    <string name="tasks_completed_today">Tasks Completed Today</string>
+    <string name="uptime_hours">Uptime Hours</string>
+
+    <!-- Earnings -->
+    <string name="total_earned">Total Earned</string>
+    <string name="today">Today</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="lifetime_earnings">Lifetime Earnings</string>
+    <string name="payout_history">Payout History</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="how_earnings_work">How Earnings Work</string>
+    <string name="earnings_explanation">NHP distributes AI inference tasks to your device when it\'s charging and connected to WiFi. Each task earns micro-payments that accumulate over time. The more your phone participates, the more you earn.</string>
+    <string name="no_payouts_yet">No payouts yet</string>
+    <string name="earnings_chart_title">Last 30 Days</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Completed</string>
+
+    <!-- Device Stats -->
+    <string name="device_stats">Device Stats</string>
+    <string name="cpu_npu_usage">CPU/NPU Usage</string>
+    <string name="temperature">Temperature</string>
+    <string name="temperature_normal">Normal</string>
+    <string name="network">Network</string>
+    <string name="wifi_connected">Connected via WiFi</string>
+    <string name="wifi_disconnected">Not Connected</string>
+    <string name="mobile_data">Mobile Data</string>
+    <string name="battery">Battery</string>
+    <string name="charging">Charging</string>
+    <string name="not_charging">Not Charging</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Your Phone Earns\nWhile You Sleep</string>
+    <string name="onboarding_desc_1">Turn your idle smartphone into an AI compute node. Earn crypto and cash rewards effortlessly.</string>
+    <string name="onboarding_title_2">Three Simple Rules</string>
+    <string name="onboarding_desc_2">NHP only works when all three conditions are met. Your daily usage is never affected.</string>
+    <string name="onboarding_rule_charging">Charging ⚡</string>
+    <string name="onboarding_rule_wifi">WiFi Connected 📶</string>
+    <string name="onboarding_rule_idle">Screen Off 😴</string>
+    <string name="onboarding_title_3">Almost Ready!</string>
+    <string name="onboarding_desc_3">Allow notifications and battery optimization to keep NHP running smoothly in the background.</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="start_earning">Start Earning</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="payout_method">Payout Method</string>
+    <string name="select_payout_method">Select Payout Method</string>
+    <string name="crypto_wallet">Crypto Wallet</string>
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="paypal">PayPal</string>
+    <string name="schedule">Active Hours</string>
+    <string name="schedule_desc">Set when NHP should be active</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_desc">Receive earning updates</string>
+    <string name="about_nhp">About NHP</string>
+    <string name="version">Version %1$s</string>
+    <string name="how_it_works">How It Works</string>
+    <string name="how_it_works_desc">NHP (Neural Handset Protocol) is a distributed AI computing network. When you\'re not using your phone, it processes small AI inference tasks using your device\'s neural processor. Your data is never accessed — tasks run in a Trusted Execution Environment (TEE). You earn micro-payments for every task completed.</string>
+
+    <!-- Trust Signals -->
+    <string name="trust_data_safe">Your data is never accessed</string>
+    <string name="trust_tee">TEE Protected</string>
+    <string name="trust_battery">Battery safe — only when charging</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">NHP Service</string>
+    <string name="notification_channel_desc">Shows NHP processing status</string>
+    <string name="notification_title">NHP Active ⚡</string>
+    <string name="notification_body">Processing AI tasks • Earned %1$s today</string>
+    <string name="notification_pause">Pause</string>
+    <string name="notification_details">Details</string>
+
+    <!-- Splash -->
+    <string name="tagline">Computing in Everyone\'s Hands</string>
+
+    <!-- Statistics Screen -->
+    <string name="statistics">Statistics</string>
+    <string name="total_uptime">Total Uptime</string>
+    <string name="uptime_hours_stat">Uptime Hours</string>
+    <string name="tasks_done">Tasks Done</string>
+    <string name="compute_contribution">Compute Contribution</string>
+    <string name="h100_equivalent">H100 Equivalent Hours</string>
+    <string name="co2_saved">CO₂ Saved</string>
+    <string name="activity_heatmap">Activity Heatmap</string>
+    <string name="session_history">Session History</string>
+    <string name="node_rank">Node Rank</string>
+    <string name="node_apprentice">Node Apprentice</string>
+    <string name="node_operator">Node Operator</string>
+    <string name="node_master">Node Master</string>
+    <string name="network_pillar">Network Pillar</string>
+    <string name="compute_desc">Your phone contributed %s H100-hours of AI compute</string>
+    <string name="co2_desc">Equivalent to saving %s CO₂</string>
+    <string name="network_stats">You are part of a network with 10,000 active devices</string>
+    <string name="network_capacity">Network capacity: 42.5 H100 equivalents</string>
+    <string name="date">Date</string>
+    <string name="duration">Duration</string>
+    <string name="tasks">Tasks</string>
+    <string name="earned">Earned</string>
+
+    <!-- Permissions -->
+    <string name="one_time_setup">One-time Setup</string>
+    <string name="permissions_setup_desc">To earn while you sleep, NHP needs 3 permissions:</string>
+    <string name="perm_notifications">Notifications</string>
+    <string name="perm_notifications_desc">Get notified when you\'re earning</string>
+    <string name="perm_battery">Battery Optimization</string>
+    <string name="perm_battery_desc">Prevent Android from stopping NHP</string>
+    <string name="perm_autostart">Auto-start</string>
+    <string name="perm_autostart_desc">Allow NHP to start automatically</string>
+    <string name="grant">Grant</string>
+    <string name="disable_restriction">Disable Restriction</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="permission_warning">NHP may not work reliably in the background without these permissions.</string>
+
+    <!-- Demo / Reset -->
+    <string name="dev_demo">Developer / Demo</string>
+    <string name="demo_mode">Demo Mode</string>
+    <string name="demo_mode_desc">Increases simulation speed for testing</string>
+    <string name="reset_all_data">Reset All Data</string>
+    <string name="simulate_night">Simulate Night Session</string>
+    <string name="simulate_night_desc">Instantly simulate a full night session</string>
+    <string name="reset_confirm">This will erase all earnings history and reset the app. Are you sure?</string>
+    <string name="session_simulated">8-hour session simulated! +$0.64 earned</string>
+    <string name="demo_active">⚡ Demo Mode Active</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+
+    <!-- About -->
+    <string name="about_nhp_title">About NHP Protocol</string>
+    <string name="the_vision">The Vision</string>
+    <string name="by_the_numbers">By the Numbers</string>
+    <string name="white_paper">White Paper</string>
+    <string name="github_repository">GitHub Repository</string>
+    <string name="report_issue">Report an Issue</string>
+    <string name="vision_text">NHP turns 4 billion idle smartphones into the world\'s largest distributed AI computing network.</string>
+    <string name="footer_text">Built with ⚡ by obadadallo95 — MIT License</string>
+    <string name="stat_4_billion">4 Billion — Idle smartphones worldwide</string>
+    <string name="stat_h100">7.1M — H100 equivalents (7 manufacturers)</string>
+    <string name="stat_earnings">$42/mo — Average user earnings (moderate)</string>
+    <string name="stat_co2">1M tons — CO₂ saved per year</string>
+
+    <!-- Milestones -->
+    <string name="milestone_reached">Milestone Reached!</string>
+    <string name="youve_earned">You\'ve earned %s</string>
+    <string name="awesome">Awesome!</string>
+
+    <!-- General -->
+    <string name="currency_format">$%1$.2f</string>
+    <string name="currency_format_short">$%1$.3f</string>
+    <string name="hours_format">%1$.1fh</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="first_task_congrats">🎉 Congrats! First task completed!</string>
+</resources>

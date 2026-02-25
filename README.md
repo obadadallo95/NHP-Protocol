@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/NHP-Protocol-blueviolet?style=for-the-badge&logoColor=white" alt="NHP Protocol"/>
-  <img src="https://img.shields.io/badge/Scenarios-1632-green?style=for-the-badge" alt="1632 Scenarios"/>
+  <img src="https://img.shields.io/badge/Mobile--App-v1.0--Bilingual-success?style=for-the-badge" alt="Mobile App Bilingual"/>
+  <img src="https://img.shields.io/badge/Scenarios-1,632-green?style=for-the-badge" alt="1632 Scenarios"/>
   <img src="https://img.shields.io/badge/Phases-16-orange?style=for-the-badge" alt="16 Phases"/>
   <img src="https://img.shields.io/badge/Charts-95-blue?style=for-the-badge" alt="95 Charts"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License"/>
@@ -19,6 +20,7 @@
 <p align="center">
   <a href="#-the-problem">Problem</a> •
   <a href="#-the-solution">Solution</a> •
+  <a href="#-android-prototype">Prototype</a> •
   <a href="#-simulation-results">Results</a> •
   <a href="#-per-company-analysis">Companies</a> •
   <a href="#-quick-start">Quick Start</a> •
@@ -84,7 +86,24 @@ Meanwhile, **4 billion smartphones** sit idle every night — each carrying a po
 
 ---
 
-## 📊 Simulation Results
+## � Android Prototype — تطبيق الأندرويد التجريبي
+
+The NHP **Android Prototype** is now fully functional and verified. It implements the core logic of the protocol in a high-fidelity, investor-ready mobile application.
+
+| Feature | Status | Description |
+|---|---|---|
+| 🌍 **Bilingual Support** | ✅ Done | Full support for **Arabic** and **English** with RTL/LTR layout switching |
+| 🧠 **Real Data Tracking** | ✅ Done | Real-time monitoring of CPU/NPU usage, battery level, and **actual device temperature** |
+| 📡 **Network Detection** | ✅ Done | Distinguishes between WiFi, Mobile Data, and Ethernet |
+| ⚡ **Foreground Service** | ✅ Done | Runs securely in the background using Android 14+ best practices |
+| 📊 **Real Statistics** | ✅ Done | Data-driven dashboards showing earnings, uptime, and AI task history |
+| 💵 **Earnings Sim** | ✅ Done | Micro-payment accumulation logic based on actual device participation |
+
+> 📂 **[View App Source Code & Documentation](./nhp-app/)**
+
+---
+
+## �📊 Simulation Results
 
 This repository contains **1,632 validated scenarios** across **16 phases** proving NHP's feasibility across every dimension.
 
@@ -264,12 +283,15 @@ Also includes: **4 token lifecycle models** (inflationary, deflationary, fixed, 
 <summary><strong>7 Deep Analysis Categories — Click to expand</strong></summary>
 
 ### Phase 10 — AI Task Decomposition
+
 9/10 AI tasks run perfectly on phones: embeddings, classification, object detection, data labeling, sentiment analysis, speech-to-text, image generation, video analysis, federated learning.
 
 ### Phase 11 — User Adoption Models
+
 Firmware-level = **80% adoption** vs opt-in app = **0.5%**. Pre-installed default-on = **30%**.
 
 ### Phase 12 — Manufacturer Integration
+
 | Manufacturer | Integration Time | Difficulty |
 |---|---|---|
 | Transsion (Tecno/Infinix) | 3 months | Very Low |
@@ -279,6 +301,7 @@ Firmware-level = **80% adoption** vs opt-in app = **0.5%**. Pre-installed defaul
 | Huawei | 8 months | High |
 
 ### Phase 13 — 5-Year Revenue Projection
+
 | Year | Devices | Annual Total |
 |---|---|---|
 | Year 1 | 0.5M | $30M |
@@ -288,12 +311,15 @@ Firmware-level = **80% adoption** vs opt-in app = **0.5%**. Pre-installed defaul
 | Year 5 | 500M | $90B |
 
 ### Phase 14 — Technical Architecture
+
 10-step data flow: Developer SDK → API Gateway → Task Queue → Device Selector → Task Router → Phone TEE → NPU Execution → Result Signing → Verification → Delivery.
 
 ### Phase 15 — Social Impact & ESG
+
 6 UN SDGs aligned (avg 8.7/10): Clean Energy, Decent Work, Innovation, Reduced Inequalities, Responsible Consumption, Climate Action.
 
 ### Phase 16 — Risk Matrix
+
 12 risks identified across Technical, Business, Regulatory, Market, Security, and Black Swan categories. **All mitigated.**
 
 </details>
@@ -365,8 +391,8 @@ assets/
 | Phase | Timeline | Status | Description |
 |---|---|---|---|
 | Phase 0 | Feb 2026 | ✅ Complete | Full simulation — 1,632 scenarios, 95 charts, 16 phases |
-| Phase 1 | Mar 2026 | ⬜ Next | Android PoC (NPU + TEE proof of concept) |
-| Phase 2 | Apr 2026 | ⬜ Planned | Jobcenter / Gründungszuschuss application |
+| Phase 1 | Mar 2026 | ✅ Complete | Android PoC (NPU + TEE proof of concept, Bilingual, Data-driven) |
+| Phase 2 | Apr 2026 | ⬜ Next | Jobcenter / Gründungszuschuss application |
 | Phase 3 | May 2026 | ⬜ Planned | Pitch deck + Transsion/Xiaomi outreach |
 | Phase 4 | Jun-Jul 2026 | ⬜ Planned | India pilot (1,000 devices) |
 | Phase 5 | Aug-Sep 2026 | ⬜ Planned | Seed Round + developer SDK |
