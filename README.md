@@ -5,6 +5,8 @@
   <img src="https://img.shields.io/badge/Phases-16-orange?style=for-the-badge" alt="16 Phases"/>
   <img src="https://img.shields.io/badge/Charts-95-blue?style=for-the-badge" alt="95 Charts"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License"/>
+  <a href="./android-poc/"><img src="https://img.shields.io/badge/Android_PoC-Live%20on%20S24_Ultra-brightgreen?style=for-the-badge&logo=android&logoColor=white" alt="Android PoC"/></a>
+  <a href="./android-poc/"><img src="https://img.shields.io/badge/Status-Phase_1_Complete-blue?style=for-the-badge" alt="Status"/></a>
 </p>
 
 <h1 align="center">⚡ NHP — Neural Handset Protocol</h1>
@@ -18,6 +20,7 @@
 </p>
 
 <p align="center">
+  <a href="#-live-android-poc">Demo</a> •
   <a href="#-the-problem">Problem</a> •
   <a href="#-the-solution">Solution</a> •
   <a href="#-android-prototype">Prototype</a> •
@@ -29,7 +32,58 @@
 
 ---
 
-## 🔴 The Problem
+## � Live Android PoC
+
+> **Phase 1 is complete.** The NHP concept is no longer just a simulation — it runs on a real Samsung Galaxy S24 Ultra.
+
+### What the App Does (Right Now)
+
+| Feature | Status |
+|---|---|
+| Detects charging state | ✅ Real Android BatteryManager API |
+| Detects WiFi connection | ✅ Real Android ConnectivityManager API |
+| Detects screen off | ✅ Real Android PowerManager API |
+| Runs background service | ✅ ForegroundService survives screen off |
+| Simulates AI task processing | ✅ Tasks every 45–90 seconds |
+| Earns micro-rewards | ✅ $0.001–$0.004 per task |
+| Arabic + English RTL | ✅ Full bilingual support |
+| Premium dark UI | ✅ Glassmorphism, 2026 aesthetic |
+
+### Screenshot — Samsung Galaxy S24 Ultra
+
+![NHP Dashboard](./assets/android-poc/dashboard_screenshot.jpg)
+
+*The app detected: Battery 100% charging ✅ • WiFi connected ✅ • NPU at 44% • Temp 37.9°C*
+
+### Tech Stack
+
+```text
+Language:     Kotlin
+UI:           Jetpack Compose
+Architecture: Clean Architecture (Presentation / Domain / Data / Core)
+Background:   ForegroundService + WorkManager
+Storage:      DataStore Preferences
+DI:           Hilt
+Min SDK:      26 (Android 8.0)
+Target SDK:   35 (Android 15)
+```
+
+### How to Run
+
+```bash
+# Clone the repo
+git clone https://github.com/obadadallo95/NHP-Protocol.git
+
+# Open Android Studio
+# File → Open → select android-poc/nhp-app/
+
+# Let Gradle sync, then run on any Android device (API 26+)
+# To trigger ACTIVE state: plug in charger + connect WiFi + turn off screen
+```
+
+---
+
+## �🔴 The Problem
 
 The AI industry has a **$150B infrastructure problem**:
 
@@ -389,13 +443,13 @@ assets/
 ## 🗺️ Roadmap
 
 | Phase | Timeline | Status | Description |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Phase 0 | Feb 2026 | ✅ Complete | Full simulation — 1,632 scenarios, 95 charts, 16 phases |
-| Phase 1 | Mar 2026 | ✅ Complete | Android PoC (NPU + TEE proof of concept, Bilingual, Data-driven) |
-| Phase 2 | Apr 2026 | ⬜ Next | Jobcenter / Gründungszuschuss application |
-| Phase 3 | May 2026 | ⬜ Planned | Pitch deck + Transsion/Xiaomi outreach |
-| Phase 4 | Jun-Jul 2026 | ⬜ Planned | India pilot (1,000 devices) |
-| Phase 5 | Aug-Sep 2026 | ⬜ Planned | Seed Round + developer SDK |
+| Phase 1 | Feb 2026 | ✅ Complete | Android PoC — live on Samsung S24 Ultra |
+| Phase 2 | Mar 2026 | 🔄 Active | Gründungszuschuss application (Germany) |
+| Phase 3 | Apr 2026 | ⬜ Planned | Pitch deck + Transsion/Xiaomi outreach |
+| Phase 4 | May-Jun 2026 | ⬜ Planned | India pilot (1,000 devices) |
+| Phase 5 | Jul-Aug 2026 | ⬜ Planned | Seed Round + developer SDK |
 | Phase 6 | Q4 2026 | ⬜ Planned | Scale to 100K+ devices |
 | Phase 7 | Q1 2027 | ⬜ Planned | Second manufacturer partner + 1M devices |
 
@@ -482,5 +536,5 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 </p>
 
 <p align="center">
-  <em>1,632 scenarios. 95 charts. 16 phases. 6 regions. 7 manufacturers. 10 AI tasks. 12 risks mitigated. 6 UN SDGs. 5-year revenue model. 1 vision.</em>
+  <em>1,632 scenarios. 95 charts. 16 phases. 6 regions. 7 manufacturers. 10 AI tasks. 12 risks mitigated. 6 UN SDGs. 5-year revenue model. 1 Android app. 1 vision.</em>
 </p>

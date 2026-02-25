@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">NHP</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">لوحة التحكم</string>
+    <string name="nav_earnings">الأرباح</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Status -->
+    <string name="status_active">نشط</string>
+    <string name="status_standby">استعداد</string>
+    <string name="status_offline">غير متصل</string>
+    <string name="nhp_running">NHP يعمل الآن</string>
+    <string name="connect_wifi">اتصل بشبكة WiFi</string>
+    <string name="plug_charger">قم بتوصيل الشاحن</string>
+    <string name="turn_screen_off">أطفئ الشاشة للبدء</string>
+    <string name="all_conditions_met">جميع الشروط متوفرة — جاري معالجة المهام</string>
+    <string name="checking_conditions">جاري التحقق من الشروط…</string>
+    <string name="tasks_completed_today">المهام المنجزة اليوم</string>
+    <string name="uptime_hours">ساعات التشغيل</string>
+
+    <!-- Earnings -->
+    <string name="total_earned">إجمالي الأرباح</string>
+    <string name="today">اليوم</string>
+    <string name="this_week">هذا الأسبوع</string>
+    <string name="this_month">هذا الشهر</string>
+    <string name="lifetime_earnings">الأرباح الكلية</string>
+    <string name="payout_history">سجل المدفوعات</string>
+    <string name="withdraw">سحب</string>
+    <string name="how_earnings_work">كيف تعمل الأرباح</string>
+    <string name="earnings_explanation">يوزع NHP مهام الذكاء الاصطناعي على جهازك عندما يكون قيد الشحن ومتصلاً بشبكة WiFi. كل مهمة تكسبك مدفوعات صغيرة تتراكم مع الوقت. كلما شارك هاتفك أكثر، كلما ربحت أكثر.</string>
+    <string name="no_payouts_yet">لا توجد مدفوعات بعد</string>
+    <string name="earnings_chart_title">آخر ٣٠ يوم</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="completed">مكتمل</string>
+
+    <!-- Device Stats -->
+    <string name="device_stats">معلومات الجهاز</string>
+    <string name="cpu_npu_usage">استخدام المعالج</string>
+    <string name="temperature">الحرارة</string>
+    <string name="temperature_normal">طبيعية</string>
+    <string name="network">الشبكة</string>
+    <string name="wifi_connected">متصل بالـ WiFi</string>
+    <string name="wifi_disconnected">غير متصل</string>
+    <string name="mobile_data">بيانات الجوال</string>
+    <string name="battery">البطارية</string>
+    <string name="charging">يشحن</string>
+    <string name="not_charging">لا يشحن</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">هاتفك يربح\nأثناء نومك</string>
+    <string name="onboarding_desc_1">حوّل هاتفك الخامل إلى عقدة حوسبة ذكاء اصطناعي. اكسب العملات الرقمية والنقد بسهولة.</string>
+    <string name="onboarding_title_2">ثلاث قواعد بسيطة</string>
+    <string name="onboarding_desc_2">NHP يعمل فقط عند توفر الشروط الثلاثة. استخدامك اليومي لن يتأثر أبداً.</string>
+    <string name="onboarding_rule_charging">الشحن ⚡</string>
+    <string name="onboarding_rule_wifi">WiFi متصل 📶</string>
+    <string name="onboarding_rule_idle">الشاشة مطفأة 😴</string>
+    <string name="onboarding_title_3">جاهز تقريباً!</string>
+    <string name="onboarding_desc_3">اسمح بالإشعارات وتحسين البطارية لإبقاء NHP يعمل بسلاسة في الخلفية.</string>
+    <string name="skip">تخطي</string>
+    <string name="next">التالي</string>
+    <string name="start_earning">ابدأ الربح</string>
+    <string name="get_started">ابدأ الآن</string>
+
+    <!-- Settings -->
+    <string name="settings">الإعدادات</string>
+    <string name="language">اللغة</string>
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="payout_method">طريقة الدفع</string>
+    <string name="select_payout_method">اختر طريقة الدفع</string>
+    <string name="crypto_wallet">محفظة رقمية</string>
+    <string name="bank_transfer">تحويل بنكي</string>
+    <string name="paypal">PayPal</string>
+    <string name="schedule">ساعات النشاط</string>
+    <string name="schedule_desc">حدد أوقات عمل NHP</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="notifications_desc">استلم تحديثات الأرباح</string>
+    <string name="about_nhp">عن NHP</string>
+    <string name="version">الإصدار %1$s</string>
+    <string name="how_it_works">كيف يعمل</string>
+    <string name="how_it_works_desc">NHP (بروتوكول الهاتف العصبي) هو شبكة حوسبة ذكاء اصطناعي موزعة. عندما لا تستخدم هاتفك، يقوم بمعالجة مهام ذكاء اصطناعي صغيرة باستخدام المعالج العصبي. بياناتك لا يتم الوصول إليها أبداً — المهام تعمل في بيئة تنفيذ موثوقة (TEE). تكسب مدفوعات صغيرة عن كل مهمة مكتملة.</string>
+
+    <!-- Trust Signals -->
+    <string name="trust_data_safe">بياناتك لا يتم الوصول إليها أبداً</string>
+    <string name="trust_tee">محمي بـ TEE</string>
+    <string name="trust_battery">آمن على البطارية — فقط أثناء الشحن</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">خدمة NHP</string>
+    <string name="notification_channel_desc">يعرض حالة معالجة NHP</string>
+    <string name="notification_title">NHP نشط ⚡</string>
+    <string name="notification_body">جاري معالجة مهام الذكاء الاصطناعي • ربحت %1$s اليوم</string>
+    <string name="notification_pause">إيقاف مؤقت</string>
+    <string name="notification_details">التفاصيل</string>
+
+    <!-- Splash -->
+    <string name="tagline">الحوسبة في يد الجميع</string>
+
+    <!-- Statistics Screen -->
+    <string name="statistics">الإحصائيات</string>
+    <string name="total_uptime">إجمالي وقت التشغيل</string>
+    <string name="uptime_hours_stat">ساعات التشغيل</string>
+    <string name="tasks_done">المهام المنجزة</string>
+    <string name="compute_contribution">مساهمة الحوسبة</string>
+    <string name="h100_equivalent">ساعات معادلة H100</string>
+    <string name="co2_saved">توفير CO₂</string>
+    <string name="activity_heatmap">خريطة النشاط</string>
+    <string name="session_history">سجل الجلسات</string>
+    <string name="node_rank">رتبة العقدة</string>
+    <string name="node_apprentice">متدرب العقدة</string>
+    <string name="node_operator">مشغل العقدة</string>
+    <string name="node_master">خبير العقدة</string>
+    <string name="network_pillar">ركيزة الشبكة</string>
+    <string name="compute_desc">ساهم هاتفك بـ %s ساعة H100 من حوسبة الذكاء الاصطناعي</string>
+    <string name="co2_desc">يعادل توفير %s من CO₂</string>
+    <string name="network_stats">أنت جزء من شبكة تضم 10,000 جهاز نشط</string>
+    <string name="network_capacity">سعة الشبكة: 42.5 مكافئ H100</string>
+    <string name="date">التاريخ</string>
+    <string name="duration">المدة</string>
+    <string name="tasks">المهام</string>
+    <string name="earned">الأرباح</string>
+
+    <!-- Permissions -->
+    <string name="one_time_setup">إعداد لمرة واحدة</string>
+    <string name="permissions_setup_desc">لكسب المال أثناء نومك، يحتاج NHP إلى 3 صلاحيات:</string>
+    <string name="perm_notifications">التنبيهات</string>
+    <string name="perm_notifications_desc">احصل على تنبيهات عند بدء الكسب</string>
+    <string name="perm_battery">تحسين البطارية</string>
+    <string name="perm_battery_desc">منع أندرويد من إيقاف NHP</string>
+    <string name="perm_autostart">التشغيل التلقائي</string>
+    <string name="perm_autostart_desc">السماح لـ NHP بالبدء تلقائياً</string>
+    <string name="grant">منح</string>
+    <string name="disable_restriction">إلغاء القيود</string>
+    <string name="open_settings">فتح الإعدادات</string>
+    <string name="permission_warning">قد لا يعمل NHP بشكل موثوق في الخلفية بدون هذه الصلاحيات.</string>
+
+    <!-- Demo / Reset -->
+    <string name="dev_demo">المطور / العرض التوضيحي</string>
+    <string name="demo_mode">وضع العرض التوضيحي</string>
+    <string name="reset_all_data">إعادة تعيين كل البيانات</string>
+    <string name="simulate_night">محاكاة جلسة ليلية</string>
+    <string name="reset_confirm">سيؤدي هذا إلى مسح سجل الأرباح وإعادة تعيين التطبيق. هل أنت متأكد؟</string>
+    <string name="session_simulated">تمت محاكاة جلسة لمدة 8 ساعات! تم ربح +$0.64</string>
+    <string name="demo_active">⚡ وضع العرض التوضيحي نشط</string>
+    <string name="cancel">إلغاء</string>
+    <string name="reset">إعادة تعيين</string>
+
+    <!-- About -->
+    <string name="about_nhp_title">حول بروتوكول NHP</string>
+    <string name="the_vision">الرؤية</string>
+    <string name="by_the_numbers">بالأرقام</string>
+    <string name="white_paper">الورقة البيضاء</string>
+    <string name="github_repository">مستودع GitHub</string>
+    <string name="report_issue">الإبلاغ عن مشكلة</string>
+    <string name="vision_text">NHP يحول 4 مليار هاتف خامل إلى أكبر شبكة حوسبة ذكاء اصطناعي موزعة في العالم.</string>
+    <string name="footer_text">تم البناء بـ ⚡ بواسطة obadadallo95 — ترخيص MIT</string>
+    <string name="stat_4_billion">4 مليار — هواتف ذكية خاملة حول العالم</string>
+    <string name="stat_h100">7.1 مليون — مكافئ H100 (7 مصنعين)</string>
+    <string name="stat_earnings">$42 شهرياً — متوسط أرباح المستخدم (معتدل)</string>
+    <string name="stat_co2">مليون طن — من CO₂ يتم توفيره سنوياً</string>
+
+    <!-- Milestones -->
+    <string name="milestone_reached">تم الوصول إلى إنجاز!</string>
+    <string name="youve_earned">لقد ربحت %s</string>
+    <string name="awesome">رائع!</string>
+
+    <!-- General -->
+    <string name="currency_format">$%1$.2f</string>
+    <string name="currency_format_short">$%1$.3f</string>
+    <string name="hours_format">%1$.1fh</string>
+    <string name="percentage_format">%1$d%%</string>
+    <string name="first_task_congrats">🎉 مبروك! أول مهمة مكتملة!</string>
+</resources>
