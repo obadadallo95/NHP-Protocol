@@ -38,6 +38,8 @@
 
 ### What the App Does (Right Now)
 
+[**📥 Download Android APK (v1.0)**](./bin/NHP_Protocol_v1.0.apk)
+
 | Feature | Status |
 |---|---|
 | Detects charging state | ✅ Real Android BatteryManager API |

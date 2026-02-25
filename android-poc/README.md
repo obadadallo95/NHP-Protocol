@@ -4,6 +4,8 @@ This folder contains the Android Proof of Concept for the NHP Protocol.
 
 ## Status: ✅ Live on Samsung Galaxy S24 Ultra
 
+[**📥 Download Android APK (v1.0)**](../bin/NHP_Protocol_v1.0.apk)
+
 ### Screenshots — Samsung Galaxy S24 Ultra
 
 | Dashboard | Statistics |
