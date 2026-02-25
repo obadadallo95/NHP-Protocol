@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/NHP-Protocol-blueviolet?style=for-the-badge&logoColor=white" alt="NHP Protocol"/>
-  <img src="https://img.shields.io/badge/Scenarios-972-green?style=for-the-badge" alt="972 Scenarios"/>
+  <img src="https://img.shields.io/badge/Scenarios-1474-green?style=for-the-badge" alt="1474 Scenarios"/>
   <img src="https://img.shields.io/badge/Manufacturers-7-blue?style=for-the-badge" alt="7 Manufacturers"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License"/>
 </p>
@@ -85,7 +85,7 @@ Meanwhile, **4 billion smartphones** sit idle every night — each carrying a po
 
 ## 📊 Simulation Results
 
-This repository contains **972 validated scenarios** proving NHP's feasibility across every dimension.
+This repository contains **1,474 validated scenarios** across **7 phases** proving NHP's feasibility across every dimension.
 
 ### Phase 1 — Core Feasibility (20 scenarios)
 
@@ -126,51 +126,103 @@ This repository contains **972 validated scenarios** proving NHP's feasibility a
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                                                             │
 │   7 Manufacturers Combined (Moderate Scenario):             │
 │                                                             │
 │   🖥️  7,147,688 H100 Equivalents                           │
-│       (More than every public cloud combined)               │
-│                                                             │
-│   💰  $1,575,000,000/month Platform Revenue                 │
-│       (At 1 Billion devices)                                │
-│                                                             │
+│   💰  $1,575,000,000/month Platform Revenue (@1B devices)   │
 │   🌍  1,000,000 tons CO₂ Saved/Year                        │
-│       (= 217,391 cars removed from roads)                   │
-│                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🏢 Per-Company Analysis
+## 🏢 Phase 3 — Per-Company Analysis (432 scenarios, 42 charts)
 
-Phase 3 includes **dedicated deep-dive reports** for each manufacturer (432 company-specific scenarios).
+Dedicated deep-dive reports for each manufacturer with **6 charts per company**:
 
 | Company | Fleet | Partnership | Report |
 |---|---|---|---|
-| **Samsung** | 300M devices | 🟢 High — Knox TEE ready, Galaxy AI needs cost reduction | [Full Report →](output/company_reports/NHP_x_SAMSUNG.md) |
-| **Apple** | 1.5B devices | 🔴 Low — Closed ecosystem, but largest fleet | [Full Report →](output/company_reports/NHP_x_APPLE.md) |
-| **Xiaomi** | 600M devices | 🟢 High — Open ecosystem, ideal for emerging markets | [Full Report →](output/company_reports/NHP_x_XIAOMI.md) |
-| **Google Pixel** | 40M devices | 🔴 Low — Owns GCP, NHP threatens cloud revenue | [Full Report →](output/company_reports/NHP_x_GOOGLE.md) |
-| **Huawei** | 250M devices | 🟢 High — Post-sanctions, needs alternative compute | [Full Report →](output/company_reports/NHP_x_HUAWEI.md) |
-| **OPPO/OnePlus** | 300M devices | 🟡 Medium — Gateway to BBK group (800M+ devices) | [Full Report →](output/company_reports/NHP_x_OPPO.md) |
-| **Vivo/iQOO** | 250M devices | 🟡 Medium — Dominant in India, price-sensitive market | [Full Report →](output/company_reports/NHP_x_VIVO.md) |
+| **Samsung** | 300M devices | 🟢 High | [Full Report →](output/company_reports/NHP_x_SAMSUNG.md) |
+| **Apple** | 1.5B devices | 🔴 Low | [Full Report →](output/company_reports/NHP_x_APPLE.md) |
+| **Xiaomi** | 600M devices | 🟢 High | [Full Report →](output/company_reports/NHP_x_XIAOMI.md) |
+| **Google Pixel** | 40M devices | 🔴 Low | [Full Report →](output/company_reports/NHP_x_GOOGLE.md) |
+| **Huawei** | 250M devices | 🟢 High | [Full Report →](output/company_reports/NHP_x_HUAWEI.md) |
+| **OPPO/OnePlus** | 300M devices | 🟡 Medium | [Full Report →](output/company_reports/NHP_x_OPPO.md) |
+| **Vivo/iQOO** | 250M devices | 🟡 Medium | [Full Report →](output/company_reports/NHP_x_VIVO.md) |
 
-### Each Report Covers:
-1. ✅ Company overview & financial data
-2. ✅ Full device fleet analysis (flagships + mid-range)
-3. ✅ TEE/Security infrastructure assessment
-4. ✅ AI services & cloud spending analysis
-5. ✅ Cost savings vs AWS, Google Cloud, Azure, Lambda, CoreWeave
-6. ✅ User income projections for primary markets
-7. ✅ Environmental impact calculations
-8. ✅ 5-year network growth projection
-9. ✅ Partnership likelihood assessment
-10. ✅ Breakeven timeline & ROI analysis
-11. ✅ Phased integration roadmap
-12. ✅ Company-specific risk matrix
-13. ✅ Primary market analysis
+---
+
+## 🏦 Phase 4 — Settlement Systems (328 scenarios)
+
+NHP is **settlement-neutral** — works with any payment mechanism:
+
+| # | System | Score | Type |
+|---|---|---|---|
+| 🥇 | Manufacturer Wallet (Samsung Pay / Apple Pay) | **87/100** | In-App |
+| 🥈 | Hybrid — User Chooses | **86/100** | Hybrid |
+| 🥉 | Mobile Money (M-Pesa / Paytm) | **85/100** | Traditional |
+| 4 | Direct Bank Transfer (ACH/SEPA/UPI) | 80/100 | Traditional |
+| 5 | Carrier Billing | 74/100 | Traditional |
+| 6 | Stablecoin (USDC/USDT) | 67/100 | Blockchain |
+| 7 | Blockchain L2 (Base/Polygon) | 52/100 | Blockchain |
+| 8 | Blockchain L1 (Ethereum/Solana) | 46/100 | Blockchain |
+
+> **Key finding: Blockchain ranks lowest.** Manufacturer wallets and mobile money beat crypto on every metric.
+
+📄 [Full Report →](output/settlement_comparison.md)
+
+---
+
+## 🧑‍💻 Phase 5 — Developer Ecosystem & Token Demand (90 scenarios)
+
+The **demand side**: developers buying NHP tokens for **50-87% cheaper AI compute**.
+
+| Use Case | Cloud/mo | NHP/mo | Savings | NHP Fit |
+|---|---|---|---|---|
+| Image Generation Platform | $90K | $15K | **$900K/yr** | 🟢 Excellent |
+| AI Chatbot Startup | $45K | $12K | **$396K/yr** | 🟡 Fair |
+| Data Analytics Company | $25K | $5K | **$240K/yr** | 🟢 Excellent |
+| Podcast Transcription | $9K | $1.2K | **$94K/yr** | 🟢 Excellent |
+| AI Research Lab | $3K | $0.4K | **$31K/yr** | 🟢 Excellent |
+| Indie Game Developer | $1.8K | $0.4K | **$16K/yr** | 🟢 Excellent |
+
+Also includes: **4 token lifecycle models** (inflationary, deflationary, fixed, dual) and platform demand modeling ($165.6M/year).
+
+📄 [Full Report →](output/developer_ecosystem.md)
+
+---
+
+## 🔒 Phase 6 — Network, Security & Compliance (27 items)
+
+| Category | Items | Key Result |
+|---|---|---|
+| TEE Security Layers | 7 | Hardware Root of Trust → Result Verification (7-10/10) |
+| Attack Scenarios | 6 | **All 6 mitigated** (MITM, fake results, sybil, DDoS) |
+| Network Performance | 8 | 95-99.7% success rate, 100K → 100M devices |
+| Legal Compliance | 6 | GDPR ✅, CCPA ✅, India ✅, China 🟡, Crypto 🟡, Battery 🟡 |
+
+📄 [Full Report →](output/network_security_compliance.md)
+
+---
+
+## 🔮 Phase 7 — Visionary Scenarios (57 scenarios)
+
+**10 ideas nobody in distributed compute has published:**
+
+| # | Scenario | Key Insight |
+|---|---|---|
+| 🌙 | **Follow the Moon** | 24/7 compute from timezone arbitrage — 230M phones always available |
+| 📱 | **E-Waste Revolution** | Old phones = 217K H100 equiv instead of landfill |
+| ⚔️ | **Geopolitical Sovereignty** | $11.2B saved, independence from US/China clouds |
+| 🆘 | **Disaster Recovery** | Anti-fragile vs AWS outages, cable cuts, sanctions |
+| 🎓 | **Education Equalizer** | $18.7B saved — Nigerian student = Stanford student |
+| 📈 | **Tipping Points** | From 100K pilot → 2B global infrastructure |
+| 🏙️ | **Smart City Edge** | Phones as city infrastructure at zero cost |
+| 💸 | **Upgrade Incentive** | Better GPU = more income = flagship sales boost |
+| 🌍 | **Financial Inclusion** | NHP + mobile money for 2B unbanked people |
+| 🔮 | **2030 Projection** | 1B devices, $51B user payouts, $50B market cap |
+
+📄 [Full Report →](output/visionary_scenarios.md)
 
 ---
 
@@ -194,30 +246,43 @@ python main.py
 # Run Phase 2 — Mega Simulation (520 scenarios)
 python mega_simulation/run.py
 
-# Run Phase 3 — Per-Company Reports (432 scenarios)
+# Run Phase 3 — Per-Company Reports (432 scenarios + 42 charts)
 python mega_simulation/generate_company_reports.py
+
+# Run Phase 4 — Settlement Systems (328 scenarios)
+python mega_simulation/settlement_comparison.py
+
+# Run Phase 5 — Developer Ecosystem (90 scenarios)
+python mega_simulation/developer_ecosystem.py
+
+# Run Phase 6 — Network, Security & Compliance
+python mega_simulation/network_security_compliance.py
+
+# Run Phase 7 — Visionary Scenarios (57 scenarios)
+python mega_simulation/visionary_scenarios.py
 ```
 
-### Output Files
+### Output Structure
 
 ```
 output/
-├── full_report.txt                    # Phase 1 report
-├── mega_report.md                     # Phase 2 comprehensive report (AR/EN)
-├── mega_scenarios_all.csv             # All 520 scenarios as CSV
-├── NHP_SIMULATION_REPORT_BILINGUAL.md # Bilingual summary with roadmap
-└── company_reports/
-    ├── NHP_x_SAMSUNG.md               # Samsung deep dive
-    ├── NHP_x_APPLE.md                 # Apple deep dive
-    ├── NHP_x_XIAOMI.md                # Xiaomi deep dive
-    ├── NHP_x_GOOGLE.md                # Google deep dive
-    ├── NHP_x_HUAWEI.md                # Huawei deep dive
-    ├── NHP_x_OPPO.md                  # OPPO deep dive
-    └── NHP_x_VIVO.md                  # Vivo deep dive
+├── full_report.txt                    # Phase 1
+├── mega_report.md                     # Phase 2 (AR/EN)
+├── mega_scenarios_all.csv             # 520 scenarios CSV
+├── settlement_comparison.md           # Phase 4
+├── developer_ecosystem.md             # Phase 5
+├── network_security_compliance.md     # Phase 6
+├── visionary_scenarios.md             # Phase 7
+└── company_reports/                   # Phase 3 (7 reports)
 
 assets/
-├── scenario_01/ → scenario_05/        # Phase 1 charts
-└── mega/                              # Phase 2 charts (10 PNGs)
+├── scenario_01/ → 05/                 # Phase 1 (5 charts)
+├── mega/                              # Phase 2 (10 charts)
+├── company/{samsung,apple,...}/        # Phase 3 (42 charts)
+├── settlement/                        # Phase 4 (5 charts)
+├── developer/                         # Phase 5 (6 charts)
+├── nsc/                               # Phase 6 (5 charts)
+└── visionary/                         # Phase 7 (6 charts)
 ```
 
 ---
@@ -226,14 +291,14 @@ assets/
 
 | Phase | Timeline | Status | Description |
 |---|---|---|---|
-| Phase 0 | Feb 2026 | ✅ Complete | Full simulation (972 scenarios) |
-| Phase 1 | Mar 2026 | ⬜ Next | Enhanced simulation: network overhead & latency |
-| Phase 2 | Apr 2026 | ⬜ Planned | Tokenomics design |
-| Phase 3 | May 2026 | ⬜ Planned | Android MVP (TEE proof of concept) |
-| Phase 4 | Jun-Jul 2026 | ⬜ Planned | Testnet: smart contracts on Solana/Base/Polygon |
-| Phase 5 | Aug 2026 | ⬜ Planned | Pitch deck + manufacturer outreach |
-| Phase 6 | Q4 2026 | ⬜ Planned | Partnership negotiations + Seed Round |
-| Phase 7 | Q1 2027 | ⬜ Planned | Beta launch with manufacturer partner |
+| Phase 0 | Feb 2026 | ✅ Complete | Full simulation — 1,474 scenarios, 79 charts, 7 phases |
+| Phase 1 | Mar 2026 | ⬜ Next | Android MVP (TEE proof of concept) |
+| Phase 2 | Apr 2026 | ⬜ Planned | Pitch deck + manufacturer outreach |
+| Phase 3 | May 2026 | ⬜ Planned | Testnet: settlement system + developer SDK |
+| Phase 4 | Jun-Jul 2026 | ⬜ Planned | Beta with first manufacturer partner |
+| Phase 5 | Aug-Sep 2026 | ⬜ Planned | Partnership negotiations + Seed Round |
+| Phase 6 | Q4 2026 | ⬜ Planned | Public launch with 2-3 manufacturer partners |
+| Phase 7 | Q1 2027 | ⬜ Planned | Scale to 1M+ active devices |
 
 ---
 
@@ -315,5 +380,5 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 </p>
 
 <p align="center">
-  <em>972 scenarios. 7 manufacturers. 10 regions. 7 cloud providers. 1 vision.</em>
+  <em>1,474 scenarios. 79 charts. 7 phases. 7 manufacturers. 10 regions. 8 settlement systems. 8 developer use cases. 10 visionary scenarios. 1 vision.</em>
 </p>
